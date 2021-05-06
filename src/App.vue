@@ -1,11 +1,17 @@
 <template>
   <div id="appLogin">
-      登录界面
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-
+import { getDynamicRouterStyle } from '@/router';
+export default {
+  
+  created() {
+   getDynamicRouterStyle()
+  }
+}
 </script>
 
 <style>

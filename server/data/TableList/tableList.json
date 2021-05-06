@@ -1,0 +1,39 @@
+{
+    "data": {
+        "total":3,
+        "pagenum":1,
+        "users": [
+            {
+                "id":222,
+                "username":"康熙",
+                "mobile":"12345698735",
+                "eamil":"kangxidadi@163.com",
+                "create_time":"2019-6-09T20:46:50.0003",
+                "ng_state":true,
+                "role_name":"测试人员"
+            },
+            {
+                "id":221,
+                "username":"雍正",
+                "mobile":"1839405844747",
+                "eamil":"yongzhengdadi@163.com",
+                "create_time":"2019-9-09T11:46:30.0001",
+                "ng_state":false,
+                "role_name":"老板"
+            },
+            {
+                "id":223,
+                "username":"乾隆",
+                "mobile":"181775760346",
+                "eamil":"qianlongdadi@qq.com",
+                "create_time":"2019-10-09T15:16:20.4252",
+                "ng_state":false,
+                "role_name":"干部"
+            }
+        ]
+    },
+    "meta": {
+        "msg":"获取成功",
+        "status":200
+    }
+}

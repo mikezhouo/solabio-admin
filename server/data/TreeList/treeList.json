@@ -1,0 +1,214 @@
+{
+    "data": [
+        {
+            "id": 501,
+            "authName": "商品管理",
+            "path": "goods",
+            "children": [
+                {
+                   "id": 5001,
+                   "authName": "商品列表",
+                   "path": "goods",
+                   "children": [
+                       {
+                        "id": 50001,
+                        "authName": "商品修改",
+                        "path": "goods"
+                       }
+                   ]
+                },
+                {
+                    "id": 5002,
+                    "authName": "分类参数",
+                    "path": "goods",
+                    "children": [
+                        {
+                         "id": 50021,
+                         "authName": "获取参数列表",
+                         "path": "goods"
+                        },
+                        {
+                            "id": 50022,
+                            "authName": "收藏商品参数",
+                            "path": "goods"
+                        },
+                        {
+                            "id": 50023,
+                            "authName": "删除商品参数",
+                            "path": "goods"
+                        }
+                    ]
+                },
+                {
+                    "id": 5003,
+                    "authName": "商品分类",
+                    "path": "goods",
+                    "children": [
+                        {
+                         "id": 50031,
+                         "authName": "添加分类",
+                         "path": "goods"
+                        },
+                        {
+                            "id": 50032,
+                            "authName": "删除分类",
+                            "path": "goods"
+                        },
+                        {
+                            "id": 50033,
+                            "authName": "获取分类详情",
+                            "path": "goods"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 601,
+            "authName": "订单管理",
+            "path": "order",
+            "children": [
+                 {
+                    "id": 6001,
+                    "authName": "订单列表",
+                    "path": "order",
+                    "children": [
+                         {
+                            "id": 60001,
+                            "authName": "订单列表",
+                            "path": "order"
+                         }
+                    ]
+                 }
+            ]
+        },
+        {
+            "id": 701,
+            "authName": "权限管理",
+            "path": "roles",
+            "children": [
+                {
+                   "id": 7001,
+                   "authName": "角色列表",
+                   "path": "roles",
+                   "children": [
+                       {
+                        "id": 70001,
+                        "authName": "添加角色",
+                        "path": "roles"
+                       },
+                       {
+                        "id": 70002,
+                        "authName": "删除角色",
+                        "path": "roles"
+                       },
+                       {
+                        "id": 70003,
+                        "authName": "角色授权",
+                        "path": "roles"
+                       },
+                       {
+                        "id": 70004,
+                        "authName": "取消角色授权",
+                        "path": "roles"
+                       },
+                       {
+                        "id": 70005,
+                        "authName": "获取角色列表",
+                        "path": "roles"
+                       },
+                       {
+                        "id": 70006,
+                        "authName": "获取角色详情",
+                        "path": "roles"
+                       },
+                       {
+                        "id": 70007,
+                        "authName": "更新角色信息",
+                        "path": "roles"
+                       },
+                       {
+                        "id": 70008,
+                        "authName": "更新角色权限",
+                        "path": "roles"
+                       }
+                   ]
+                },
+                {
+                    "id": 7002,
+                    "authName": "权限列表",
+                    "path": "roles",
+                    "children": [
+                        {
+                         "id": 70021,
+                         "authName": "查看权限",
+                         "path": "roles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 801,
+            "authName": "用户管理",
+            "path": "user",
+            "children": [
+                 {
+                    "id": 8001,
+                    "authName": "用户列表",
+                    "path": "user",
+                    "children": [
+                         {
+                            "id": 80001,
+                            "authName": "添加用户",
+                            "path": "user"
+                         },
+                         {
+                            "id": 80002,
+                            "authName": "删除用户",
+                            "path": "user"
+                         },
+                         {
+                            "id": 80003,
+                            "authName": "更新用户",
+                            "path": "user"
+                         },
+                         {
+                            "id": 80004,
+                            "authName": "获取用户详情",
+                            "path": "user"
+                         },
+                         {
+                            "id": 80005,
+                            "authName": "分配用户角色",
+                            "path": "user"
+                         }
+                    ]
+                 }
+            ]
+        },
+        {
+            "id": 901,
+            "authName": "统计数据",
+            "path": "count",
+            "children": [
+                 {
+                    "id": 9001,
+                    "authName": "数据报表",
+                    "path": "count",
+                    "children": [
+                         {
+                            "id": 90001,
+                            "authName": "查看数据",
+                            "path": "count"
+                         }
+                    ]
+                 }
+            ]
+        }
+    ],
+    "meta": {
+        "msg":"获取成功",
+        "status":200
+    }
+}

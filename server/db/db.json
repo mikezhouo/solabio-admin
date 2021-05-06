@@ -1,0 +1,212 @@
+{
+  "db": [
+    {
+      "name": "康熙",
+      "word": "123456",
+      "token": "safsdfgdfghfdgy6767",
+      "roleName": "老板",
+      "rights": [
+        {
+          "id": 125,
+          "authName": "用户管理",
+          "path": "users",
+          "children": [
+            {
+              "id": 110,
+              "authName": "用户列表",
+              "path": "users",
+              "rights":["view","add","delete","put"]
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 126,
+          "authName": "权限管理",
+          "path": "rights",
+          "children": [
+            {
+              "id": 111,
+              "authName": "角色列表",
+              "path": "roles"
+            },
+            {
+              "id": 112,
+              "authName": "权限列表",
+              "path": "rights"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 127,
+          "authName": "商品管理",
+          "path": "goods",
+          "children": [
+            {
+              "id": 122,
+              "authName": "商品列表",
+              "path": "goodlist"
+            },
+            {
+              "id": 123,
+              "authName": "分类参数",
+              "path": "goodpara"
+            },
+            {
+              "id": 124,
+              "authName": "商品分类",
+              "path": "goodclass"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 128,
+          "authName": "订单管理",
+          "path": "order",
+          "children": [
+            {
+              "id": 1001,
+              "authName": "订单列表",
+              "path": "orderlist"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 129,
+          "authName": "数据统计",
+          "path": "datasta",
+          "children": [
+            {
+              "id": 2000,
+              "authName": "数据列表",
+              "path": "datasta"
+            }
+          ],
+          "order": 1
+        }
+      ]
+    },
+    {
+      "name": "雍正",
+      "word": "123456",
+      "token": "safsdfgdfghfdgy6778",
+      "roleName": "管理人员",
+      "rights": [
+        {
+          "id": 125,
+          "authName": "用户管理",
+          "path": "users",
+          "children": [
+            {
+              "id": 110,
+              "authName": "用户列表",
+              "path": "users",
+              "rights":["add"]
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 127,
+          "authName": "商品管理",
+          "path": "goods",
+          "children": [
+            {
+              "id": 122,
+              "authName": "商品列表",
+              "path": "goodlist"
+            },
+            {
+              "id": 123,
+              "authName": "分类参数",
+              "path": "goodpara"
+            },
+            {
+              "id": 124,
+              "authName": "商品分类",
+              "path": "goodclass"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 128,
+          "authName": "订单管理",
+          "path": "order",
+          "children": [
+            {
+              "id": 1001,
+              "authName": "订单列表",
+              "path": "orderlist"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 129,
+          "authName": "数据统计",
+          "path": "datasta",
+          "children": [
+            {
+              "id": 2000,
+              "authName": "数据列表",
+              "path": "datasta"
+            }
+          ],
+          "order": 1
+        }
+      ]
+    },
+    {
+      "name": "乾隆",
+      "word": "123456",
+      "token": "safsdfgdfghfdgy6700",
+      "roleName": "普通员工",
+      "rights": [
+        {
+          "id": 125,
+          "authName": "用户管理",
+          "path": "users",
+          "children": [
+            {
+              "id": 110,
+              "authName": "用户列表",
+              "path": "users",
+              "rights":["view"]
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 128,
+          "authName": "订单管理",
+          "path": "order",
+          "children": [
+            {
+              "id": 1001,
+              "authName": "订单列表",
+              "path": "orderlist"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 129,
+          "authName": "数据统计",
+          "path": "datasta",
+          "children": [
+            {
+              "id": 2000,
+              "authName": "数据列表",
+              "path": "datasta"
+            }
+          ],
+          "order": 1
+        }
+      ]
+    }
+  ]
+}
